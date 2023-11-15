@@ -4,5 +4,9 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"yaml.schemas": {
+			"https://json.schemastore.org/github-workflow.json": "file:///home/project/devcon/devcontainers/%20.github/workflows/build-azure-python.yaml"
+		}
+	}
 }
