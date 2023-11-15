@@ -7,6 +7,9 @@ jobs:
   build:
     name: Build dev container image
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+
     steps:
       - name: Checkout (GitHub)
         uses: actions/checkout@v3
