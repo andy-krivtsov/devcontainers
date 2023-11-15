@@ -1,7 +1,9 @@
 name: azure-python-devcon-build
 run-name: Build azure-python dev-container
 on:
-  - push
+  push:
+    branches:
+      - main
 
 env:
   IMAGE_TAG: ${{ github.ref_type == 'tag' && github.ref_name || 'latest' }}
