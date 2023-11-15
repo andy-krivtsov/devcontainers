@@ -15,6 +15,10 @@
 			"installBicep": true
 		},
 		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
+			"minikube": "none"
+		},
+		"ghcr.io/devcontainers/features/terraform:1": {},
 		"ghcr.io/rio/features/chezmoi:1": {},
 		"./features/oh-my-posh": {},
 		"./features/azure-cli-completion": {}
@@ -66,6 +70,13 @@
 				"adamhartford.vscode-base64",
 				"redhat.vscode-yaml",
 				"mutantdino.resourcemonitor"
+				"samuelcolvin.jinjahtml",
+				"fabiospampinato.vscode-diff",
+				"ms-azuretools.vscode-docker",
+				"tamasfe.even-better-toml",
+				"jinliming2.vscode-go-template",
+				"hashicorp.terraform",
+				"yzhang.markdown-all-in-one"
 			]
 		}
 	}

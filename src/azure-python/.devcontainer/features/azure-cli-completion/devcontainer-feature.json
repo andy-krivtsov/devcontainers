@@ -6,6 +6,7 @@
     "name": "Azure CLI autocompletion",
     "description": "Installs Azure CLI bash autocompletion",
     "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/azure-cli"
     ]
 }
