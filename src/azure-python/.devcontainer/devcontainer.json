@@ -14,6 +14,7 @@
 		"ghcr.io/devcontainers/features/azure-cli:1": {
 			"installBicep": true
 		},
+		"ghcr.io/devcontainers/features/powershell:1": {},
 		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
 		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
 			"minikube": "none"
@@ -54,6 +55,7 @@
 			},
 			"extensions": [
 				"ms-vscode.azure-account",
+				"ms-vscode.powershell",
 				"msazurermtools.azurerm-vscode-tools",
 				"streetsidesoftware.code-spell-checker",
 				"ms-azure-devops.azure-pipelines",
