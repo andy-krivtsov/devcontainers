@@ -51,7 +51,11 @@
 				"cSpell.enableFiletypes": [
 					"!yaml"
 				],
-				"yaml.validate": true
+				"yaml.validate": true,
+				"powershell.powerShellAdditionalExePaths": {
+					"PowerShell7": "/usr/local/bin/pwsh"
+				},
+				"powershell.powerShellDefaultVersion": "PowerShell7"
 			},
 			"extensions": [
 				"ms-vscode.azure-account",
