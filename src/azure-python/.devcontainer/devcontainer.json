@@ -60,6 +60,7 @@
 			"extensions": [
 				"ms-vscode.azure-account",
 				"ms-vscode.powershell",
+				"ms-azuretools.vscode-bicep",
 				"msazurermtools.azurerm-vscode-tools",
 				"streetsidesoftware.code-spell-checker",
 				"ms-azure-devops.azure-pipelines",
