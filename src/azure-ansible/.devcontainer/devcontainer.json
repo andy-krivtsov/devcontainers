@@ -11,6 +11,7 @@
 		"ghcr.io/devcontainers/features/git:1": {
             "version": "os-provided"
         },
+		"ghcr.io/devcontainers-contrib/features/ansible:2": {},
 		"ghcr.io/devcontainers/features/azure-cli:1": {
 			"installBicep": true
 		},
