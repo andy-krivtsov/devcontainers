@@ -1,6 +1,7 @@
 name: azure-python-devcon-build
 run-name: Build azure-python dev-container
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
