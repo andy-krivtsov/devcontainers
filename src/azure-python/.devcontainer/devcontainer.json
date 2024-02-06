@@ -55,7 +55,16 @@
 				"powershell.powerShellAdditionalExePaths": {
 					"PowerShell7": "/usr/local/bin/pwsh"
 				},
-				"powershell.powerShellDefaultVersion": "PowerShell7"
+				"powershell.powerShellDefaultVersion": "PowerShell7",
+				"python.experiments.optInto": [
+					"pythonTerminalEnvVarActivation"
+				],
+				"ruff.format.args": [
+					"--extend-exclude=/**/site-packages/**/*.py\"",
+					"--extend-exclude=/**/lib/python3.11/**/*.py"
+				],
+				"mypy-type-checker.preferDaemon": false,
+				"terraform.codelens.referenceCount": true
 			},
 			"extensions": [
 				"ms-vscode.azure-account",
@@ -83,7 +92,9 @@
 				"tamasfe.even-better-toml",
 				"jinliming2.vscode-go-template",
 				"hashicorp.terraform",
-				"yzhang.markdown-all-in-one"
+				"yzhang.markdown-all-in-one",
+				"fredwangwang.vscode-hcl-format",
+				"hashicorp.hcl"
 			]
 		}
 	}
