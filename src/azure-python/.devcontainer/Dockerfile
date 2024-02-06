@@ -1,4 +1,4 @@
-ARG VARIANT=3.12.1-bookworm
+ARG VARIANT=3.11-bookworm
 FROM python:${VARIANT}
 
 ENV DEBIAN_FRONTEND=noninteractive
